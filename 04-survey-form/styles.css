@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    color: #f5f6f7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+form {
+    background-color: #1b1b32B3;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+fieldset {
+    border: none;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input {
+  display: block;
+  margin: 0.5rem 0;
+  width: 90%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  display: inline;
+  width: unset;
+}
+
+select {
+  width: 90%;
+}
+
+fieldset label {
+  margin: 0.1rem 0;
+}
+
+textarea{
+  width: 90%;
+  height: 100px;
+}
+
+input[type="submit"] {
+    height: 3em;
+    background-color: #59e9a6;
+    color: white;
+    border: none;
+    box-sizing: content-box;
+    width: 90%;
+}
+
+input, textarea, select {
+  box-sizing: content-box;
+  padding: 0.5rem;
+}
